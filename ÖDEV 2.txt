@@ -1,0 +1,138 @@
+---1.SORU---
+
+#include <stdio.h>
+
+int main() {
+    
+float sayi1, sayi2;
+
+printf("Bİrinci Sayiyi Giriniz : ");
+scanf("%f", &sayi1);
+
+printf("İkinci Sayiyi Giriniz : ");
+scanf("%f", &sayi2);
+
+printf("TOPLAM : %0.2f", sayi1+sayi2);
+return 0;
+
+    
+}
+
+
+---2.SORU---
+
+1. satır yorum satırıdır.
+
+2. satırda kütüphane eklenmiştir. C kütüphanesine yönlendirme sağlar.
+
+3. satır başlangıç noktasıdır. İşlemler yapılmaya buradan başlanır.
+
+5 ve 6. satırlarda ekrana "Merhaba" ve "Nasılsın" yazan komutlar eklenmiştir.
+
+7. satırda kod bir kere çalıştıktan sonra tekrarlanmayacağını belirtir, int türünde olduğu için "0" değeri verilmiştir.
+
+8. satırda kodları bitirmek için süslü parantez kullanılmıştır.
+
+
+
+---3.SORU---
+
+
+
+"c" , "d" , "g" , "k",  yanlış değişken isimleridir.
+
+
+
+
+---4.SORU---
+
+
+#include <stdio.h>
+
+	int main{
+
+               
+           int toplam;
+
+
+	}
+
+
+
+---5.SORU---
+
+
+#include <stdio.h>
+
+int main() {
+    
+    int sayi1, sayi2;
+    
+    printf("Birinci Sayiyi Giriniz : ");
+    scanf("%d", &sayi1);
+    
+    printf("İkinci Sayiyi Giriniz : ");
+    scanf("%d", &sayi2);
+    
+    printf("TOPLAM = %d\n", sayi1+sayi2);
+    
+    
+    return 0;
+}
+
+
+---6.SORU---
+
+
+"C" seçeneğinde tamsayı olarak tanımlanan toplam değişkenine ilk değer
+olarak 0 atanmıştır.
+
+
+
+---7.SORU---
+
+
+a , b , c son değerler;
+
+
+
+A = 11
+
+B = 7.5
+
+C = 109/12
+
+
+
+---8.SORU---
+
+
+Program Çıktısı -->
+
+
+ -27.38
+ -28.4
+ 25
+ 290
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
