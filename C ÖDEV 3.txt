@@ -7,7 +7,7 @@
 
 int main() {
     
-    int sayi=0, sayi1=1, sayi2=1, sayi3;
+    int sayi=0, sayi1=1, sayi2=1, sayi3=0;
     
     printf("Fibonacci serisinde ilk kaç terimi bulmak istersiniz? : ");
     scanf("%d", &sayi);
@@ -16,11 +16,12 @@ int main() {
     
     for(int i = 1; i<=sayi; i++){
         
+        printf("%d\n", sayi1);
+
         sayi3=sayi1+sayi2;
         sayi1=sayi2;
         sayi2=sayi3;
         
-        printf("%d\n", sayi3);
     }
     
     return 0;
